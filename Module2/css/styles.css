@@ -1,0 +1,152 @@
+* {
+	box-sizing: border-box;
+	margin: 1% 1% 1% 1%;
+	padding: 0;
+}
+
+body {
+	font-size: 15px;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-align: center;
+    color: #33001a;
+}
+
+
+
+p {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 45px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: black;
+  text-align: justify;
+
+}
+
+
+.row {
+  width: 100%;
+}
+.chicken {
+	color: black;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bolder;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color: #e6e600;
+	border: 1px solid grey;
+	width: 40%;
+	height: 40px;
+	margin: 0;
+	float: right;
+
+}
+.ch {
+	background-color: #ffff99;
+	overflow: auto;
+}
+
+.beef {
+	color: black;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bolder;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color: #ff6600;
+	border: 1px solid grey;
+	width: 40%;
+	height: 40px;
+	margin: 0;
+	float: right;
+}
+
+.bf {
+	background-color: #ffd1b3;
+	overflow: auto;
+}
+
+.sushi {
+	color: black;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bolder;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color: #00cc66;
+	border: 1px solid grey;
+	width: 40%;
+	height: 40px;
+	margin: 0;
+	float: right;
+}
+.sh {
+	background-color: #e6fff3;
+	overflow: auto;
+}
+
+/********** Large devices **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+    border: 1px solid grey;
+    height: 380px;
+  }
+  .col-lg-1 {
+    width: 31%;
+    
+  }
+  .col-lg-2 {
+    width: 31%;
+    
+  }
+  .col-lg-3 {
+    width: 31%;
+
+
+  }
+  
+} 
+/********** Medium devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+    border: 1px solid grey;
+    
+  }
+  .col-md-1 {
+    width: 48%;
+    height: 320px;
+  }
+  .col-md-2 {
+    width: 48%;
+    height: 320px;
+  }
+  .col-md-3 {
+    width: 98%;
+    
+  }
+  
+} 
+
+/********** Small devices **********/
+@media (max-width: 767px) {
+  .col-sm-1, .col-sm-2, .col-sm-3 {
+    float: left;
+    border: 1px solid grey;
+        
+  }
+  .col-sm-1 {
+    width: 99%;
+  }
+  .col-sm-2 {
+    width: 99%;
+  }
+  .col-sm-3 {
+    width: 99%;
+  }
+  
+} 
