@@ -83,6 +83,35 @@ body {
 }
 /* END HEADER */
 
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+
 /* HOME PAGE*/
 #menu-tile, #specials-tile, #map-tile {
   height: 250px;
@@ -147,6 +176,52 @@ body {
 }
 /* END MENU CATEGORIES PAGE */
 
+/* SINGLE CATEGORY PAGE*/
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+.menu-item-tile hr {
+  width: 80%;
+}
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px; 
+}
+.menu-item-tile .menu-item-price span {
+  font-size: .6em;
+}
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #3F0C1F; 
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px; /* отступ справа от фото, чтоб красиво отсоединить картинку от описания*/
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+.menu-item-description {
+  padding-right: 30px;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+}
+
+/* END SINGLE CATEGORY PAGE*/
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -258,8 +333,18 @@ body {
   #menu-tile, #specials-tile {
     width: 360px;
     margin: 0 auto 15px;
-}
   }
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;
+  }
+
+}
 
   /*** Super Extra small devices Only ***/
 
@@ -269,7 +354,7 @@ body {
       padding-top: 5px;
       font-size: 6vw;
     }
-  }
+  
     /* End Header */
 
     /* FOOTER*/
@@ -307,7 +392,7 @@ body {
     width: 280px;
     margin: 0 auto 15px;
   }/* End Home Page */
-}
+
 /* Menu categories*/
 .col-xxs-12 {
   position: relative;
@@ -318,7 +403,7 @@ body {
   width: 100%;
 }
 /* END Menu categories*/
-
+}
 
 
   
