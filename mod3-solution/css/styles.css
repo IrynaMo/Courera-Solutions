@@ -1,0 +1,88 @@
+body {
+	font-size: 22px;
+	color: black;
+	background-image: url('../images/food-3.jpg'); 
+	font-family: 'Charm', serif;
+}
+
+/* HEADER*/
+#header-nav {
+	background-color: #686868;
+	opacity: 85%;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding-top: 15px;
+}
+.navbar-brand h1 {
+	font-family: Georgia, serif; 
+	color: #008000;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1.5px 1.5px 1.5px #001a00;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .65;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #006600;
+}
+#collapsable-nav a {
+	font-size: 1.2em;
+	font-family: Georgia, serif;
+}
+
+#nav-list a {
+	color: #001a00;
+	text-align: center;
+}
+/* END HEADER*/
+
+/*Main */
+#our-menu {
+	font-size: 3em;
+	font-weight: bold;
+	color: #006600;
+}
+#recipe {
+	border: 1px solid grey;
+	background-color: #F8F8F8;
+	opacity: 50%;
+	margin: 0 0 15px; 
+	padding: 0;
+}
+#recipe div {
+	text-align: justify;
+	margin: 55px 15px 10px;
+}
+#recipe span {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	font-weight: bolder;
+	background-color: #009900;
+	opacity: 80%;
+}
+
+/** Super Extra small devices **/
+@media (max-width: 479px) {
+	.navbar-brand h1 {
+      padding-top: 5px;
+      font-size: 6vw;
+    }
+    #our-menu {
+    	font-size: 10vw;
+    	margin-top: 5px;
+    }
+    #recipe span {
+    	font-size: 8vw;
+    }
+    #recipe div {
+    	font-size: 4.5vw;
+    }
+}
